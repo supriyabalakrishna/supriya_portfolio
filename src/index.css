@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-retro-dark text-white font-sans selection:bg-retro-lavender selection:text-retro-darker overflow-x-hidden;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    /* Custom Pixel Pointer Cursor */
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M0 0h4v20h4v-4h4v-4h4v-4h4V4H12V0H0zm4 4h8v4H8v4H4v4zm0 0' fill='%23ffffff'/%3E%3Cpath d='M0 0h2v18h2v-2h4v-2h4v-2h4v-2h2v-2H10V2H2V0zm2 2h6v2H6v4H4v4H2v4zm0 0' fill='%23000000'/%3E%3C/svg%3E"), auto;
+  }
+
+  .pixel-sparkle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    clip-path: polygon(50% 0%, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0% 50%, 38% 38%);
+    animation: pixelFloat 4s ease-in-out infinite;
+    opacity: 0.8;
+  }
+
+  /* SVG Pixel Hand Cursor for interactive elements */
+  a, button, select, input, [role="button"], .interactive-cursor {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M8 0h4v4H8V0zm4 4h4v4h-4V4zm4 4h4v4h-4V8zm-4 4h4v4h-4v-4zm-4 4h4v8H8v-8zm-4-4h4v4H4v-4zm0-4h4v4H4V8zm0-4H0v4h4V4z' fill='%23ffffff'/%3E%3Cpath d='M9 1h2v2H9V1zm3 3h2v2h-2V4zm3 3h2v2h-2V7zm-3 3h2v2h-2v-2zm-3 3h2v7H9v-7zm-3-3h2v2H6v-2zm0-3h2v2H6V7zm0-3H1v2h5V4z' fill='%23000000'/%3E%3C/svg%3E"), pointer !important;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .project-image {
+    position: relative;
+    z-index: 1;
+    aspect-ratio: 16 / 9;
+    min-height: 160px;
+    background: linear-gradient(180deg, rgba(20, 21, 33, 0.9), rgba(17, 15, 27, 0.95));
+  }
+
+  .project-image-fallback {
+    min-height: 160px;
+    background: linear-gradient(180deg, rgba(18, 18, 30, 0.96), rgba(11, 11, 18, 1));
+  }
+}
+
+/* Retro CRT Monitor Filter */
+.crt-monitor {
+  position: relative;
+  overflow: hidden;
+}
+
+.crt-monitor::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.04), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.04));
+  z-index: 30;
+  background-size: 100% 3px, 6px 100%;
+  pointer-events: none;
+}
+
+/* Retro tech grid background */
+.retro-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(185, 167, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(185, 167, 255, 0.03) 1px, transparent 1px);
+}
+
+/* Pixel Corners styling via Clip Path (pure 8-bit shape) */
+.pixel-corners {
+  clip-path: polygon(
+    0px 4px, 4px 4px, 4px 0px, 
+    calc(100% - 4px) 0px, calc(100% - 4px) 4px, 100% 4px, 
+    100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%, 
+    4px 100%, 4px calc(100% - 4px), 0px calc(100% - 4px)
+  );
+}
+
+.pixel-corners-lg {
+  clip-path: polygon(
+    0px 8px, 8px 8px, 8px 0px, 
+    calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 
+    100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 
+    8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px)
+  );
+}
+
+.pixel-corners-sm {
+  clip-path: polygon(
+    0px 2px, 2px 2px, 2px 0px, 
+    calc(100% - 2px) 0px, calc(100% - 2px) 2px, 100% 2px, 
+    100% calc(100% - 2px), calc(100% - 2px) calc(100% - 2px), calc(100% - 2px) 100%, 
+    2px 100%, 2px calc(100% - 2px), 0px calc(100% - 2px)
+  );
+}
+
+/* Custom retro block scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a12;
+  border-left: 2px solid #292445;
+}
+::-webkit-scrollbar-thumb {
+  background: #B9A7FF;
+  border: 2px solid #0a0a12;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF8FC7;
+}
+
+/* Custom speech bubble tail style */
+.pixel-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -16px;
+  left: 24px;
+  width: 16px;
+  height: 16px;
+  background: #18152A;
+  border-right: 4px solid #B9A7FF;
+  border-bottom: 4px solid #B9A7FF;
+  transform: rotate(45deg);
+  box-shadow: 4px 0 0 0 #000;
+}
+
+/* Prefers Reduced Motion CSS override */
+@keyframes pixelFloat {
+  0%, 100% { transform: translateY(0px) scale(1); opacity: 0.5; }
+  50% { transform: translateY(-8px) scale(1.15); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-delay: 0s !important;
+    animation-duration: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0s !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-idle-float, .animate-pixel-sparkle, .animate-scanline, .animate-pulse-glow, .animate-cloud-drift, .animate-cloud-drift-slow, .animate-code-float, .pixel-sparkle {
+    animation: none !important;
+  }
+}

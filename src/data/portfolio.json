@@ -1,0 +1,255 @@
+{
+  "personalInfo": {
+    "name": "Supriya Balakrishna",
+    "pronouns": "she/her",
+    "role": "Computer Science Undergraduate — AI & ML",
+    "specialization": "Artificial Intelligence · Machine Learning · Computer Vision · Full-Stack Development",
+    "location": "Bengaluru, India",
+    "university": "Alliance University",
+    "summary": "Computer Science undergraduate specializing in AI & ML with experience building AI-powered applications, computer vision systems, and full-stack solutions. Skilled in Python, JavaScript, SQL, APIs, and integrating AI models into practical applications. Passionate about automation, AI agents, and solving real-world business problems through technology."
+  },
+  "contact": {
+    "email": "supriyabalakrishna598@gmail.com",
+    "phone": "6361081964",
+    "linkedin": "https://www.linkedin.com/in/supriya-balakrishna-158a6134a/",
+    "github": "https://github.com/supriyabalakrishna",
+    "leetcode": "https://leetcode.com/u/OZ2I5nKKYS/"
+  },
+  "skills": [
+    {
+      "category": "Programming",
+      "skills": ["Python", "C++", "C"]
+    },
+    {
+      "category": "Web",
+      "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "category": "Databases",
+      "skills": ["SQL", "MongoDB"]
+    },
+    {
+      "category": "Core CS",
+      "skills": ["DSA", "OOP", "Problem Solving"]
+    },
+    {
+      "category": "AI & ML",
+      "skills": ["Machine Learning", "Deep Learning", "CNN", "Computer Vision", "Prompt Engineering"]
+    },
+    {
+      "category": "Libraries / Tools",
+      "skills": ["OpenCV", "Pandas", "NumPy", "Git", "GitHub", "Docker"]
+    },
+    {
+      "category": "AI Tools",
+      "skills": ["ChatGPT", "Claude", "Gemini", "Antigravity", "Cursor", "Qoder"]
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "Hindustan Aeronautics Limited",
+      "role": "Computer Vision Intern",
+      "duration": "1 Month",
+      "description": "Developed a computer vision-based manufacturing defect detection system using Python and OpenCV."
+    },
+    {
+      "id": "exp-2",
+      "company": "IBM",
+      "role": "Front-End Development Intern",
+      "duration": "6 Weeks",
+      "description": "Built responsive web interfaces using HTML, CSS, JavaScript, and modern frontend practices."
+    },
+    {
+      "id": "exp-3",
+      "company": "IBM",
+      "role": "AI Sustainability Intern",
+      "duration": "6 Weeks",
+      "description": "Developed AI-driven solutions for sustainability using machine learning and data analysis concepts."
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "school": "Alliance University (ASAC)",
+      "degree": "B.Tech Computer Science — AI & ML",
+      "duration": "2023 — 2027",
+      "metric": "CGPA: 9.1 / 10"
+    },
+    {
+      "id": "edu-2",
+      "school": "Narayana PU College",
+      "degree": "Class 12 / PUC",
+      "duration": "2021 — 2023",
+      "metric": "91%"
+    },
+    {
+      "id": "edu-3",
+      "school": "Surana Vidyalaya",
+      "degree": "Class 10",
+      "duration": "2020 — 2021",
+      "metric": "91%"
+    }
+  ],
+  "projects": [
+    {
+      "id": "urban-guardian-ai",
+      "title": "Urban Guardian AI",
+      "subtitle": "AI-powered emergency response system",
+      "description": "An intelligent emergency corridor system using AI to optimize emergency vehicle routing and emergency response coordination.",
+      "stack": ["Gemini API", "Streamlit", "Python", "ESP8266"],
+      "technologies": ["Gemini API", "Streamlit", "Python", "ESP8266"],
+      "theme": "Emergency-response pixel dashboard",
+      "type": "AI / ML • IoT",
+      "featured": true,
+      "highlighted": true,
+      "github": "https://github.com/supriyabalakrishna/urban-guardian",
+      "demo": "",
+      "caseStudy": "",
+      "image": ""
+    },
+    {
+      "id": "healthsync",
+      "title": "HealthSync",
+      "subtitle": "Full-stack healthcare platform",
+      "description": "A comprehensive healthcare platform designed to streamline patient management, health tracking, and medical workflows.",
+      "stack": ["React", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+      "technologies": ["React", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+      "theme": "Pixel medical dashboard",
+      "type": "Full Stack",
+      "featured": false,
+      "highlighted": false,
+      "github": "https://github.com/supriyabalakrishna/healthSync-software",
+      "demo": "",
+      "caseStudy": "",
+      "image": ""
+    },
+    {
+      "id": "pneumonia-detection-system",
+      "title": "Pneumonia Detection System",
+      "subtitle": "Deep learning-based medical image analysis",
+      "description": "A computer vision system that leverages deep learning to detect pneumonia from chest X-ray images with high accuracy.",
+      "stack": ["TensorFlow", "CNN", "OpenCV"],
+      "technologies": ["TensorFlow", "CNN", "OpenCV"],
+      "theme": "Pixel medical scanner",
+      "type": "AI / Computer Vision",
+      "featured": false,
+      "highlighted": false,
+      "github": "https://github.com/supriyabalakrishna/PNEUMONIA_DETECTION",
+      "demo": "",
+      "caseStudy": "",
+      "image": ""
+    },
+    {
+      "id": "prescription-system",
+      "title": "Prescription System",
+      "subtitle": "Digital prescription management platform",
+      "description": "A digital healthcare system for managing digital prescriptions, patient records, and medication workflows.",
+      "stack": ["Frontend", "Backend", "Healthcare Workflow"],
+      "technologies": ["Frontend", "Backend", "Healthcare Workflow"],
+      "theme": "Pixel doctor's workspace",
+      "type": "Healthcare App",
+      "featured": false,
+      "highlighted": false,
+      "github": "https://github.com/supriyabalakrishna/prescription_update_sead",
+      "demo": "",
+      "caseStudy": "",
+      "image": ""
+    },
+    {
+      "id": "medicare-portal",
+      "title": "Medicare Portal",
+      "subtitle": "Responsive healthcare portal website",
+      "description": "A modern, responsive healthcare portal website focused on frontend web development with an emphasis on user experience and accessibility.",
+      "stack": ["HTML", "Tailwind CSS", "Responsive Web Design"],
+      "technologies": ["HTML", "Tailwind CSS", "Responsive Web Design"],
+      "theme": "Frontend healthcare portal",
+      "type": "Frontend Web",
+      "featured": false,
+      "highlighted": false,
+      "github": "https://github.com/supriyabalakrishna/medicare_portal",
+      "demo": "",
+      "caseStudy": "",
+      "image": ""
+    }
+  ],
+  "hackathons": [
+    {
+      "id": "hack-1",
+      "name": "AI for Good Hackathon",
+      "result": "3rd Place",
+      "description": "Supported by Microsoft."
+    },
+    {
+      "id": "hack-2",
+      "name": "AllianceTechx",
+      "result": "Special Recognition Award",
+      "description": "Won Special Recognition Award."
+    },
+    {
+      "id": "hack-3",
+      "name": "EY Techathon 6.0",
+      "result": "Participant",
+      "description": "Participated in the event."
+    },
+    {
+      "id": "hack-4",
+      "name": "GHCI Hackathon",
+      "result": "Participant",
+      "description": "Participated in the event."
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "Python Zero to Hero Bootcamp",
+      "issuer": "Udemy",
+      "highlighted": false
+    },
+    {
+      "id": "cert-2",
+      "name": "30 Days of Python using AI",
+      "issuer": "AI for Techies",
+      "highlighted": false
+    },
+    {
+      "id": "cert-3",
+      "name": "Introduction to Database Systems",
+      "issuer": "NPTEL — Elite Certificate",
+      "highlighted": false
+    },
+    {
+      "id": "cert-4",
+      "name": "Introduction to Machine Learning",
+      "issuer": "NPTEL — Silver Certificate, Top 2%",
+      "highlighted": true,
+      "badge": "Top 2%"
+    }
+  ],
+  "quests": [
+    {
+      "id": "quest-1",
+      "name": "AI Exploration",
+      "progress": 80,
+      "description": "Building and orchestrating autonomous LLM reasoning loops."
+    },
+    {
+      "id": "quest-2",
+      "name": "Computer Vision",
+      "progress": 70,
+      "description": "Object detection and tracking algorithms using PyTorch and OpenCV."
+    },
+    {
+      "id": "quest-3",
+      "name": "Full-Stack Development",
+      "progress": 85,
+      "description": "Connecting backend APIs with front-end React interactive states."
+    },
+    {
+      "id": "quest-4",
+      "name": "Automation & AI Agents",
+      "progress": 65,
+      "description": "Writing automation workflows to solve real-world efficiency challenges."
+    }
+  ]
+}
