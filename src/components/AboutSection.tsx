@@ -50,7 +50,7 @@ export const AboutSection: React.FC = () => {
                 </div>
                 <div className="flex justify-between border-b-2 border-retro-border pb-1.5">
                   <span className="text-retro-muted uppercase text-[10px]">LEVEL:</span>
-                  <span className="text-retro-pink font-bold text-[10px]">3RD YEAR (2023-2027)</span>
+                  <span className="text-retro-pink font-bold text-[10px]"> (2023-2027)</span>
                 </div>
                 <div className="flex justify-between border-b-2 border-retro-border pb-1.5">
                   <span className="text-retro-muted uppercase text-[10px]">CGPA:</span>
