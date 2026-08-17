@@ -142,7 +142,7 @@ export const HeroSection: React.FC = () => {
               className="font-pixel text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight text-white tracking-wide uppercase"
             >
               HI, I'M <br />
-              <span className="text-retro-pink animate-pulse-glow">SUPRIYA ✦</span>
+              <span className="text-retro-pink animate-pulse-glow">SUPRIYA BALAKRISHNA ✦</span>
             </motion.h1>
 
             {/* Sub-role Banner */}
@@ -173,12 +173,12 @@ export const HeroSection: React.FC = () => {
                 START QUEST ▶
               </button>
 
-              <button
+              {/* <button
                 onClick={() => handleScrollTo('contact')}
                 className="font-pixel text-[11px] px-5 py-3 bg-retro-dark border-4 border-retro-pink text-retro-pink font-bold pixel-corners transition-all duration-75 shadow-pixel-pink active:translate-x-1 active:translate-y-1 active:shadow-none hover:bg-retro-pink hover:text-retro-dark"
               >
                 TALK TO ME ✉
-              </button>
+              </button> */}
             </motion.div>
 
             <motion.div variants={itemVariants} className="w-full">

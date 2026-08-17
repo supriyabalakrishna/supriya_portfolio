@@ -82,6 +82,7 @@ export const AchievementsSection: React.FC = () => {
       issuer: 'IIIT Bangalore',
       badge: 'PARTICIPATION',
       description: 'Active participation in Aurigo InfraCode of Synergy \'25, organized by IIIT Bangalore',
+      image: '/assets/certificates/aurigo.jpg',
       category: 'hackathon',
       type: 'Hackathon'
     },
@@ -91,6 +92,7 @@ export const AchievementsSection: React.FC = () => {
       issuer: 'Gappy AI',
       badge: 'PARTICIPATION',
       description: 'Hackathon submission to Ship to Get Hired - Gappy AI Hackathon',
+      image: '/assets/certificates/gappy.jpg',
       category: 'hackathon',
       type: 'Hackathon'
     },
@@ -100,6 +102,7 @@ export const AchievementsSection: React.FC = () => {
       issuer: 'RVCE & NITK',
       badge: 'PARTICIPATION',
       description: 'Participation in Hack-Ula, organized by RVCE and NITK',
+      image: '/assets/certificates/hackula.jpg',
       category: 'hackathon',
       type: 'Hackathon'
     },
@@ -109,6 +112,7 @@ export const AchievementsSection: React.FC = () => {
       issuer: 'HP (Hindustan Petroleum)',
       badge: 'PARTICIPATION',
       description: 'Participation in HP Power Lab 2.0 Round 1 Online Assessment',
+      image: '/assets/certificates/hp.jpg',
       category: 'hackathon',
       type: 'Hackathon'
     },
@@ -118,6 +122,7 @@ export const AchievementsSection: React.FC = () => {
       issuer: 'EY',
       badge: 'PARTICIPATION',
       description: 'Participated in EY Techathon 6.0',
+      
       category: 'hackathon',
       type: 'Hackathon'
     },
@@ -132,7 +137,7 @@ export const AchievementsSection: React.FC = () => {
       date: 'Jul-Sep 2025',
       badge: 'ELITE • TOP 2%',
       description: 'NPTEL Elite Certificate with 81% score, Top 2% distinction',
-      image: '/assets/certificates/nptel-machine-learning.jpg',
+      image: '/assets/certificates/ml.jpg',
       category: 'certification',
       type: 'NPTEL • Elite Certificate'
     },
@@ -143,7 +148,7 @@ export const AchievementsSection: React.FC = () => {
       date: 'October 29, 2025',
       badge: 'CERTIFIED',
       description: 'Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate (Credential: 323403275OCI25AICFA) Valid until October 29, 2027',
-      image: '/assets/certificates/oracle-ai-foundations.jpg',
+      image: '/assets/certificates/oracle.jpg',
       category: 'certification',
       type: 'Oracle Certification'
     },
@@ -154,7 +159,7 @@ export const AchievementsSection: React.FC = () => {
       date: 'Jan-Apr 2025',
       badge: 'ELITE',
       description: 'NPTEL Elite Certificate with 61% score',
-      image: '/assets/certificates/nptel-database-systems.jpg',
+      image: '/assets/certificates/database.jpg',
       category: 'certification',
       type: 'NPTEL • Elite Certificate'
     },
@@ -165,7 +170,7 @@ export const AchievementsSection: React.FC = () => {
       date: 'July 7, 2025',
       badge: 'COMPLETED',
       description: 'Course completion certificate from Udemy (22 hours) by Jose Portilla, Pierian Training',
-      image: '/assets/certificates/udemy-python.jpg',
+      image: '/assets/certificates/udemy.jpg',
       category: 'certification',
       type: 'Udemy Course'
     },
@@ -176,7 +181,7 @@ export const AchievementsSection: React.FC = () => {
       date: 'Jan-Apr 2026',
       badge: 'ELITE',
       description: 'NPTEL Elite Certificate with 69% score',
-      image: '/assets/certificates/nptel-compiler-design.jpg',
+      image: '/assets/certificates/compiler.jpg',
       category: 'certification',
       type: 'NPTEL • Elite Certificate'
     },
@@ -186,6 +191,7 @@ export const AchievementsSection: React.FC = () => {
       issuer: 'AI for Techies',
       badge: 'COMPLETED',
       description: 'Completed 30 Days of Python using AI from AI for Techies',
+      image: '/assets/certificates/compiler.jpg',
       category: 'certification',
       type: 'Course'
     },
@@ -201,6 +207,7 @@ export const AchievementsSection: React.FC = () => {
       location: 'Presidency University, Bangalore',
       badge: 'ATTENDANCE',
       description: 'Participated in India AI Impact Summit 2026 – HEI Pre-Summit, organized under AICTE and MoE\'s Innovation Cell',
+      image: '/assets/certificates/ai.jpg',
       category: 'event',
       type: 'Tech Summit'
     },

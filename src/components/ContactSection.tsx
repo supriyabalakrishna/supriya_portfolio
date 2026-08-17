@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import usePortfolio from '../hooks/usePortfolio';
-import { Mail, GitBranch, Link2, PhoneCall, Code2 } from 'lucide-react';
+import { Mail, GitBranch, Link2, PhoneCall } from 'lucide-react';
 
 export const ContactSection: React.FC = () => {
   const { contact } = usePortfolio();
@@ -235,24 +235,6 @@ export const ContactSection: React.FC = () => {
                     <span className="font-mono text-xs font-semibold mt-0.5 select-all">{contact.phone}</span>
                   </div>
                 </a>
-
-                {/* LeetCode Badge */}
-                {contact.leetcode && (
-                  <a
-                    href={contact.leetcode}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-4 p-3 border-2 border-retro-orange bg-retro-darker/60 hover:bg-retro-orange/10 text-white transition-colors pixel-corners-sm"
-                  >
-                    <span className="p-1.5 bg-retro-orange text-retro-darker pixel-corners-sm shrink-0">
-                      <Code2 className="w-4 h-4" />
-                    </span>
-                    <div className="flex flex-col">
-                      <span className="text-[7px] text-retro-muted uppercase">LEETCODE PROFILE</span>
-                      <span className="font-sans text-xs font-semibold mt-0.5 truncate">/OZ2I5nKKYS</span>
-                    </div>
-                  </a>
-                )}
 
               </div>
             </div>

@@ -14,7 +14,7 @@ import EducationSection from './components/EducationSection';
 import QuestSection from './components/QuestSection';
 import TerminalSection from './components/TerminalSection';
 import ExploringWidget from './components/ExploringWidget';
-import ContactSection from './components/ContactSection';
+// import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
 export const App: React.FC = () => {
@@ -57,7 +57,7 @@ export const App: React.FC = () => {
             <EducationSection />
             <QuestSection />
             <TerminalSection />
-            <ContactSection />
+            {/* <ContactSection /> */}
           </main>
 
           <Footer />
