@@ -191,7 +191,7 @@ export const AchievementsSection: React.FC = () => {
       issuer: 'AI for Techies',
       badge: 'COMPLETED',
       description: 'Completed 30 Days of Python using AI from AI for Techies',
-      image: '/assets/certificates/compiler.jpg',
+      
       category: 'certification',
       type: 'Course'
     },
